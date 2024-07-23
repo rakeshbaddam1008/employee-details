@@ -5,10 +5,10 @@ import EmployeeFormContainer from "./components/EmployeeFormContainer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Employee Form</h1>
+      <div className="container">
+        <h1 className="title">Employee Form</h1>
         <EmployeeFormContainer />
-      </header>
+      </div>
     </div>
   );
 }
